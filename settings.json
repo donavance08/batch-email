@@ -1,0 +1,30 @@
+{
+	"redisOplog": {
+		"redis": {
+			"port": 6379,
+			"host": "127.0.0.1"
+		},
+		"retryIntervalMs": 10000,
+		"mutationDefaults": {
+			"optimistic": true,
+			"pushToRedis": true
+		},
+		"debug": false
+	},
+
+	"database": {
+		"documentCount": 1000000
+	},
+
+	"packages": {
+		"accounts": {
+			"sendVerificationEmail": true
+		},
+		"email": {
+			"service": "Gmail",
+			"user": "tmq.adonis.avance@gmail.com",
+			"password": "vkmuixyispsqnuhv"
+		}
+	}
+}
+

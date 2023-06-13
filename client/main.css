@@ -1,0 +1,275 @@
+html {
+	height: 100%;
+}
+
+body {
+	padding: 0px;
+	font-family: sans-serif;
+	height: inherit;
+	margin: 0px;
+}
+
+#react-target {
+	height: 80%;
+}
+
+/* LOGIN */
+
+.login-form-container {
+	display: flex;
+	width: fit-content;
+	margin: auto;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.login-form-container > form > div {
+	margin-top: 10px;
+}
+
+.login-form-container > h1 {
+	text-align: center;
+}
+
+.login-form-container * .button-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 5px;
+}
+
+.login-page {
+	width: 100%;
+	align-content: center;
+}
+
+/* REGISTRATION */
+
+.registration-page {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	/* height: 1vh; */
+	flex-direction: column;
+}
+
+.registration-page > h1 {
+	text-align: center;
+}
+.registration-page > form > div {
+	margin-top: 10px;
+}
+
+.registration-page * .button-container {
+	display: flex;
+	justify-content: center;
+}
+
+/* VERIFICATION LANDING PAGE */
+.verification-container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.verification-container > h2 {
+	margin: 0px;
+}
+
+.verification-container > p {
+	margin: 5px;
+}
+
+/* HOME PAGE */
+.home-container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+/* RESET PASSWORD */
+
+.reset-password-container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.reset-password-container > form {
+	display: inherit;
+	flex-direction: inherit;
+}
+
+.reset-password-container > form > div {
+	margin: 5px 0px;
+}
+
+/* NAVBAR */
+.navbar-container {
+	width: 20%;
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	padding: 30px 10px 0px 10px;
+}
+
+.navbar-buttons {
+	margin: 5px 5px 0px 5px;
+	height: 30px;
+	font-size: large;
+	border-radius: 5px;
+}
+
+.navbar-buttons:hover {
+	box-shadow: 5px 10px 8px #1ff057;
+}
+
+.navbar-buttons[selectednode] {
+	background-color: #1ff057;
+}
+
+/* DASHBOARD */
+
+.dashboard-container {
+	min-width: 80%;
+	width: 80%;
+	border: 2px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* EMAIL SECTION */
+.compose-container {
+	width: 100%;
+	height: 90%;
+	margin: 20px;
+}
+
+.compose-email-tab {
+	height: 100%;
+}
+.single-email-container {
+	width: 100%;
+}
+
+.single-email-container > form > div {
+	margin: 5px;
+}
+
+.single-email-container * label {
+	font-size: medium;
+	font-weight: 400;
+}
+
+.single-email-container * input {
+	margin-left: 5px;
+}
+
+.bulk-email-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.bulk-email-container * input {
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.bulk-email-button-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.bulk-email-button-container > button {
+	margin: 0px 10px;
+}
+
+.bulk-email-container {
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.data-mapping-container {
+	padding-top: 50px;
+	width: 50%;
+	height: 70%;
+	display: inherit;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+.individual-mapping-container {
+	font-size: larger;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	margin: 20px 0px 0px 0px;
+}
+
+.react-tabs__tab-panel {
+	height: 100%;
+}
+
+/* COMPOSE EMAIL */
+
+.compose-email-container {
+	padding-top: 50px;
+	width: 50%;
+	height: 70%;
+	display: inherit;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+.compose-email-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 5px;
+}
+
+.compose-email-container * input {
+	padding: 3px;
+	margin-left: 5px;
+}
+
+.body {
+	display: flex;
+	align-items: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+textarea {
+	resize: none;
+}
+
+/* AUTOCOMPLETE */
+
+span:hover {
+	background-color: #f3f04dee;
+}
+
+mark {
+	background-color: #f3f04dee;
+}
+
